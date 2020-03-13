@@ -13,6 +13,9 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/symfony/process" />
@@ -167,18 +170,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="804" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582427894234" />
-    <state x="517" y="288" key="NewPhpFileDialog" timestamp="1582428913187">
+    <state x="517" y="288" key="NewPhpFileDialog" timestamp="1584063522812">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="517" y="288" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1582428913187" />
+    <state x="517" y="288" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1584063522812" />
     <state x="184" y="7" key="SettingsEditor" timestamp="1583827273423">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="7" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1583827273423" />
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1583826726081">
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1584063533424">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1583826726081" />
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1584063533424" />
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1584063498178">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1584063498178" />
     <state x="339" y="17" width="670" height="676" key="search.everywhere.popup" timestamp="1582273074724">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

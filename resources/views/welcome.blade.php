@@ -41,8 +41,8 @@
                         <div class="social-icons pull-right">
                             <ul class="nav navbar-nav">
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <!-- <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li> -->
                                 <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
                                 <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
                             </ul>
@@ -57,17 +57,17 @@
                 <div class="row">
                     <div class="col-sm-4">
                         <div class="logo pull-left">
-                            <a href="index.html"><img src="{{('public/frontend/images/logo.png')}}" alt="" /></a>
+                            <a href="index.html"><img src="" alt="" />XƯỞNG GIÀY</a>
                         </div>
                     </div>
                     <div class="col-sm-8">
                         <div class="shop-menu pull-right">
                             <ul class="nav navbar-nav">
                                 <li><a href="#"><i class="fa fa-user"></i> Account</a></li>
-                                <li><a href="#"><i class="fa fa-star"></i> Wishlist</a></li>
-                                <li><a href="checkout.html"><i class="fa fa-crosshairs"></i> Checkout</a></li>
+                               <!--  <li><a href="#"><i class="fa fa-star"></i> Wishlist</a></li>
+                                <li><a href="checkout.html"><i class="fa fa-crosshairs"></i> Checkout</a></li> -->
                                 <li><a href="cart.html"><i class="fa fa-shopping-cart"></i> Cart</a></li>
-                                <li><a href="login.html"><i class="fa fa-lock"></i> </a></li>
+                                <!-- <li><a href="login.html"><i class="fa fa-lock"></i> </a></li> -->
                             </ul>
                         </div>
                     </div>
@@ -89,21 +89,21 @@
                         </div>
                         <div class="mainmenu pull-left">
                             <ul class="nav navbar-nav collapse navbar-collapse">
-                                <li><a href="{{URL::to('/trang-chu')}}" class="active">Home</a></li>
-                                <li class="dropdown"><a href="#">Shop<i class="fa fa-angle-down"></i></a>
+                                <li><a href="{{URL::to('/trang-chu')}}" class="active">Trang Chủ</a></li>
+                                <li class="dropdown"><a href="#">Cửa Hàng<i class="fa fa-angle-down"></i></a>
                                     <ul role="menu" class="sub-menu">
-                                        <li><a href="shop.html">Products</a></li>
-                                        <li><a href="product-details.html">Product Details</a></li>
-                                        <li><a href="checkout.html">Checkout</a></li>
-                                        <li><a href="cart.html">Cart</a></li>
-                                        <li><a href="login.html">Login</a></li>
+                                        <li><a href="shop.html">Sản Phẩm</a></li>
+                                        <li><a href="product-details.html">Chi Tiết Sản Phẩm</a></li>
+                                        <!-- <li><a href="checkout.html">Checkout</a></li> -->
+                                        <li><a href="cart.html">Giỏ Hàng</a></li>
+                                        <li><a href="login.html">Đăng Nhập</a></li>
                                     </ul>
                                 </li>
-                                <li class="dropdown"><a href="#">Blog<i class="fa fa-angle-down"></i></a>
-                                    <ul role="menu" class="sub-menu">
-                                        <li><a href="blog.html">Blog List</a></li>
-                                        <li><a href="blog-single.html">Blog Single</a></li>
-                                    </ul>
+                                <li class="dropdown"><a href="#">Blog<!-- <i class="fa fa-angle-down"></i> --></a>
+                                    <!-- <ul role="menu" class="sub-menu">
+                                        <li><a href="blog.html">DANH SÁCH BLOG</a></li>
+                                        <li><a href="blog-single.html"></a></li>
+                                    </ul> -->
                                 </li>
                                 <li><a href="404.html">Giới thiệu</a></li>
                                 <li><a href="contact-us.html">Liên Hệ</a></li>
@@ -112,7 +112,7 @@
                     </div>
                     <div class="col-sm-3">
                         <div class="search_box pull-right">
-                            <input type="text" placeholder="Nhập sản phẩm tìm kiếm.."/>
+                            <input type="text" class="searching-btn" placeholder="Nhập sản phẩm tìm kiếm.."/>
                             <button type="button" class="btn btn-default">Tìm kiếm</button>
                         </div>
                     </div>
@@ -135,7 +135,7 @@
                         <div class="carousel-inner">
                             <div class="item active">
                                 <div class="col-sm-6">
-                                    <h1><span>E</span>-SHOPPER</h1>
+                                    <h1><span>Xưởng </span> Giày</h1>
                                     <h2>Free E-Commerce Template</h2>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                                     <button type="button" class="btn btn-default get">Đặt hàng ngay</button>
@@ -163,7 +163,7 @@
                                     <h1><span>E</span>-SHOPPER</h1>
                                     <h2>Free Ecommerce Template</h2>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                                    <button type="button" class="btn btn-default get">Đặt hàng ngay/button>
+                                    <button type="button" class="btn btn-default get">Đặt hàng ngay</button>
                                 </div>
                                 <div class="col-sm-6">
                                     <img src="{{('public/frontend/images/girl3.jpg')}}" class="girl img-responsive" alt="" />
